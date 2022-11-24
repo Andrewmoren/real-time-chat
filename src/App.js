@@ -13,7 +13,7 @@ function App() {
   const [user, loading, error] = useAuthState(auth);
 
   if (loading) {
-    <Loader />;
+    return <Loader />;
   }
   return (
     <BrowserRouter>

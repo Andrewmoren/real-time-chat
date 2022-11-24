@@ -6,25 +6,12 @@ const Loader = () => {
     <Container>
       <Grid
         container
-        styke={{ height: window.innerHeight - 50 }}
+        style={{ height: window.innerHeight - 50 }}
         alignContent={"center"}
         justify={"center"}
       >
-        <Grid alignItems={"center"} direction={"column"}>
-          <div class="lds-spinner">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
+        <Grid container alignItems={"center"} direction={"column"}>
+          <div className="lds-hourglass"></div>
         </Grid>
       </Grid>
     </Container>
