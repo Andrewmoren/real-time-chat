@@ -17,7 +17,7 @@ const Login = () => {
           direction={"column"}
         >
           <Box p={5}>
-            <Button variant={"outlined"}>Log in with Google</Button>
+            <Button variant="contained">Log in with Google</Button>
           </Box>
         </Grid>
       </Grid>
