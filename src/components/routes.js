@@ -1,4 +1,6 @@
-import { LOGIN_ROUTE } from "../utils/conts";
+import { LOGIN_ROUTE, CHAT_ROUTE } from "../utils/const";
+import Login from "./Login";
+import Chat from "./Chat";
 
 export const publicRoutes = [
   {
